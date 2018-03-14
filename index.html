@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<style>
+	.menu-principal{
+		background-color: #FFFFFF;
+	}
+	#menuSite a:hover{color: #82B440; transition: .5s;}
+	.banner{
+		background-image: url('imagens/fundo.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.duvidas{
+		background-image: url('imagens/contato_otimizacao_conteudo.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	.rodape{
+		background-color: #1B1B1B;
+	}
+	.rodape p{color: #CDCDCD;}
+	.menu-rodape-container{
+		margin-left: -20px;		
+	}
+	.menu-rodape-container a{color: #CDCDCD; transition: .5s;}
+	.menu-rodape-container a:hover{color: #419240;}
+</style>
+<body>
+	
+	<nav class="navbar navbar-expand-lg navbar-light menu-principal"> 
+		<div class="container">
+
+			<!-- <a href="" class="navbar-brand">PRIME CONTEÚDO <br>Digital</a> -->
+			<a href="index.html" class="navbar-brand">
+				<img src="imagens/logo_sticky.png" alt="" class="img-fluid" style="width: 300px;">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuSite">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="menuSite">
+
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="quemsomos.html" class="nav-link">Quem Somos</a>
+					</li>
+					<li class="nav-item">
+						<a href="resultados.html" class="nav-link">Resultados</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="servicos.html" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">Serviços</a>
+						<div class="dropdown-menu">
+							<a href="" class="dropdown-item">Criação de Websites que vendem e SEO</a>
+							<a href="" class="dropdown-item">Midias sociais</a>
+							<a href="" class="dropdown-item">E-commerce</a>
+							<a href="" class="dropdown-item">Marketplace - Venda sem ter loja virtual</a>
+							<a href="" class="dropdown-item">Marketing de Conteúdo</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-link">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-link">Contato</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-link" data-toggle="modal" data-target="#modalPesquisar"><i class="fas fa-search"></i></a>
+					</li>
+				</ul>
+				
+			</div>
+
+		</div>		
+	</nav>
+	<!--  -->
+	<div class="banner text-white text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 mt-5">
+					<h1 class="display-4" style="font-weight: bold;">ELEVE OS SEUS LUCROS USANDO <br>A INTERNET</h1>
+				</div>
+				<div class="col-12 mt-3" style="font-size: 25px;">
+					<p>Venda mais, fidelize clientes e aproxime sua comunicação</p>
+				</div>
+				<div class="col-12 mt-3">
+					<p>Através dos nossos serviços de marketing digital, clientes que vendiam ZERO na internet hoje <br>vendem até R$ 40.000 por mês para todo Brasil.</p>
+				</div>
+				<div class="col-12 my-5">
+					<button type="button" class="btn btn-primary btn-lg"><i class="fas fa-arrow-right"></i> PEÇA UM ORÇAMENTO</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  -->
+	<div class="conteudo">
+		<div class="container">
+			<div class="col-12 text-center">
+				<h3 class="mt-5" style="font-size: 24px; color: rgb(94,94,94); letter-spacing: 0px;">Agência de marketing digital, focada em otimização de sites, páginas e e-commerce</h3>
+				<h2 class="mt-5" style="color: #3961B5;">CONHECE ESSAS MARCAS?</h2>
+				<p class="text-muted">Usamos todas essas ferramentas para ALAVANCAR seu negócio na internet. <br>Aprenda a usa-lás de forma correta!</p>
+			</div>
+			<div class="row text-center">
+				<div class="col-lg-3 mt-2">
+					<img src="imagens/google.png" alt="" class="img-fluid">
+				</div>
+				<div class="col-lg-3 mt-2">
+					<img src="imagens/mercado_livre.png" alt="" class="img-fluid">
+				</div>
+				<div class="col-lg-3 mt-2">
+					<img src="imagens/facebook.png" alt="" class="img-fluid">
+				</div>
+				<div class="col-lg-3 mt-2">
+					<img src="imagens/instagram.png" alt="" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  -->
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 text-muted">
+					<h3 class="h1" style="color: #3961B5;">Resultados com base em pesquisas</h3>
+					<p class="mt-4">Valorizamos o seu investimento, por isso cada passo que você irá dar no planejamento de marketing digital será feito com base em pesquisas, sem espaço para achismo e amadorismo.</p>
+					<p>Iremos fazer todo o trabalho para otimizar as conversões do site, loja virtual e blog.</p>
+					<p>Uma página otimizada pode aumentar o número de vendas em até 50%.</p>
+					<i class="fas fa-plus"></i> Pesquisa de público alvo <br>
+					<i class="fas fa-plus"></i> Pesquisa de palavras chaves <br>
+					<i class="fas fa-plus"></i> Análise da concorrência
+				</div>
+				<div class="col-lg-6 mt-3">
+					<img src="imagens/posicao_das_palavras_no_google.jpg" alt="" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  -->
+	<div class="servicos">
+		<div class="container">
+			<h1 class="text-center">Nossos Serviços:</h1>
+
+			<div class="row mt-5">
+				<div class="col-lg-2 text-center">
+					<img src="imagens/servicos_seo.png" alt="">
+				</div>
+				<div class="col-lg-8 pl-5">
+					<h3 style="color: #3961B5;">Website & SEO</h3>
+					<p class="text-muted">Um site é como um ponto comercial, ele pode ser bonito com animações, porém se não tiver visitantes não serve para nada. Os modelos atuais estão completamente falidos, devido as agências pensarem apenas na aparência e esquecerem o principal, trazer visitas que levarão a conversão (vendas). Por isso desenvolvemos sites e páginas OTIMIZADAS para o Google e adaptada para todos os aparelhos móveis.</p>					
+				</div>
+				<div class="col-lg-2 text-center align-self-center">
+					<button type="button" class="btn btn-primary">MAIS INFORMAÇÕES</button>
+				</div>
+			</div>
+
+			<div class="row mt-5">
+				<div class="col-lg-2 text-center">
+					<img src="imagens/servicos_redes_sociais.png" alt="">
+				</div>
+				<div class="col-lg-8 pl-5">
+					<h3 style="color: #3961B5;">Mídias Sociais</h3>
+					<p class="text-muted">Não estar na nas mídias sociais hoje já é estar atrasado, o consumidor hoje antes de fazer uma compra pesquisa à empresa em diversos canais, Facebook, Youtube, Google, etc para saber a opinião das outras pessoas. Por isso você deve estar de forma profissional nos canais que você escolher, manter informações atualizadas, responder perguntas e comentários é algo essencial.</p>
+				</div>
+				<div class="col-lg-2 align-self-center text-center">
+					<button type="button" class="btn btn-primary">MAIS INFORMAÇÕES</button>
+				</div>
+			</div>
+
+			<div class="row mt-5">
+				<div class="col-lg-2 text-center">
+					<img src="imagens/servicos_ecommerce-1.png" alt="">
+				</div>
+				<div class="col-lg-8 pl-5">
+					<h3 style="color: #3961B5;">Otimização de E-commerce</h3>
+					<p class="text-muted">Hoje não basta escolher uma plataforma de e-commerce, cadastrar meia dúzia de produtos e esperar os clientes comprarem. Esse tempo passou, atualmente é necessário trabalhar com otimização, pesquisas e analises de dados, para assim conseguir planejar cada passo que você irá dar na internet, com isso você poupara tempo e dinheiro.</p>
+				</div>
+				<div class="col-lg-2 align-self-center text-center">
+					<button type="button" class="btn btn-primary">MAIS INFORMAÇÕES</button>
+				</div>
+			</div>
+
+			<div class="row mt-5">
+				<div class="col-lg-2 text-center">
+					<img src="imagens/servicos_marketplace.png" alt="">
+				</div>
+				<div class="col-lg-8 pl-5">
+					<h3 style="color: #3961B5;">Marketplace - Venda sem ter loja virtual</h3>
+					<p>Essa modalidade de negócio é algo fantástico, já imaginou um shopping virtual em que você possa comprar de diversas lojas e pagar tudo de uma vez? Isso já existe e mesmo (talvez) você desconhecendo, a probabilidade de ja ter feito uma compra em algumas dessas plataformas de marketplace é enorme. Elas são a opção de muitos que escolheram vender sem ter uma loja virtual própria.</p>
+				</div>
+				<div class="col-lg-2 align-self-center text-center">
+					<button type="button" class="btn btn-primary">MAIS INFORMAÇÕES</button>
+				</div>
+			</div>
+
+			<div class="row my-5">
+				<div class="col-lg-2 text-center">
+					<img src="imagens/servicos_marketing_de_conteudo.png" alt="">
+				</div>
+				<div class="col-lg-8">
+					<h3 style="color: #3961B5;">Marketing de Conteúdo</h3>
+					<p>Já imaginou você podendo explicar todo dia um pouco do seu produto para um cliente antes do mesmo fazer uma compra? Isso é possível através do Marketing de Conteúdo.
+					Usando essa estratégia, você consegue educar, informar ou entreter seu futuro cliente. </p>
+				</div>
+				<div class="col-lg-2 align-self-center text-center">
+					<button type="button" class="btn btn-primary">MAIS INFORMAÇÕES</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!--  -->
+	<div class="duvidas text-center text-white">
+		<div class="container">
+			<h1 class="h3 pt-5">A PRIME CONTEÚDO DIGITAL AJUDA VOCÊ A <br>VENDER MAIS USANDO A INTERNET</h1>
+			<p class="mt-5">Entraremos em contato em no máximo 24 horas</p>
+			<button type="button" class="btn btn-warning my-5">Tire suas dúvidas agora</button>
+		</div>
+	</div>
+	<!--  -->
+	<div class="conteudo-02 pt-5" style="background-color: #F6F6F6;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<h3>Riscos de não estar na internet de forma <br>profissional</h3>
+					<p class="text-muted mt-5">Por serem gratuitos os cadastros nos principais sites de trafego da internet (Google e Facebook), pequenas, médias e até grandes empresas após fazer o cadastro esquece-se de atualizar seus respectivos perfis, passando a impressão de relaxo e abandono.</p>
+					<p class="text-muted">Mais do que passar uma má a impressão para os clientes, essas empresas não obtém resultados desses canais que são infinitamente mais baratos que os meios tradicionais de marketing.</p>
+					<p class="text-muted">Solicite agora uma análise gratuita e saiba quanto quanto de dinheiro você está perdendo por não usar a internet de forma correta.</p>
+				</div>
+				<div class="col-lg-4 text-center">
+					<img src="imagens/avaliaçao_na_internet-1.jpg" alt="" class="img-fluid">
+				</div>
+				<div class="col-12 text-muted text-center my-3">
+					<p>Escolher uma agência de marketing digital com cases de sucesso e experiência é o primeiro passo para uma caminhada de sucesso, apesar de parecer gratuito e simples o trabalho com a internet é complexo e exige muito tempo e pesquisa.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  -->
+	<footer class="rodape">
+		<div class="container">
+			<div class="row text-white">
+				<div class="col-lg-3">
+					<h3 class="h5 pt-5 pb-3" style="color: #3961B5;">Contato</h3>
+					<p>
+					(42) 9 9807-4046 Whatsapp <br>
+					Rua Conde de Irajá 287 - Uvaranas <br>
+					Ponta Grossa - Paraná <br>
+					(100km de Curitiba)
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<h3 class="h5 pt-5 pb-3" style="color: #3961B5;">Quem Somos</h3>
+					<p>Prime Conteúdo Digital é uma agência de marketing digital com experiência e muitos clientes satisfeitos.
+					Trabalhos desenvolvidos sempre com objetivo de gerar resultados em curto espaço de tempo.</p>
+				</div>
+			
+				<div class="col-lg-3">
+					<h3 class="h5 pt-5 pb-3" style="color: #3961B5;">Resultados é nossa meta</h3>
+					<p>Otimização de sites <br>
+					Sites que convertem <br>
+					Páginas de vendas <br>
+					Pesquisas <br>
+					Testes + Análises = RESULTADOS</p>
+				</div>
+
+				<div class="col-lg-3">
+					<h3 class="h5 pt-5 pb-3" style="color: #3961B5;">Soluções</h3>
+					<div class="menu-rodape-container">
+						<ul class="nav flex-column ml-0">
+							<li class="nav-item">
+								<a class="nav-link" href="">Criação de Websites que vendem e SEO</a>
+							</li>							
+							<li class="nav-item">
+								<a class="nav-link" href="">Midias Sociais</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="">E-commerce</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="">Marketing de Conteúdo</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="">Marketplace – Venda sem ter loja virtual</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+	<!-- WhatsHelp.io widget -->
+	<script type="text/javascript">
+	    (function () {
+	        var options = {
+	            company_logo_url: "//static.whatshelp.io/img/flag.png", // URL of company logo (png, jpg, gif)
+	            greeting_message: "Entre em contato", // Text of greeting message
+	            call_to_action: "Message us", // Call to action
+	            button_color: "#129BF4", // Color of button
+	            position: "right", // Position may be 'right' or 'left'
+	        };
+	        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+	        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+	        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+	        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+	    })();
+	</script>
+	<!-- /WhatsHelp.io widget -->
+
+</body>
+</html>

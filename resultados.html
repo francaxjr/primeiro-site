@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<style>
+	.menu-principal{
+		background-color: #FFFFFF;
+	}
+	#menuSite a:hover{color: #82B440; transition: .5s;}
+	.resultados{
+		background-image: url('imagens/title_resultados.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.rodape{
+		background-color: #1B1B1B;
+	}
+	.rodape p{color: #CDCDCD;}
+	.menu-rodape-container{
+		margin-left: -20px;		
+	}
+	.menu-rodape-container a{color: #CDCDCD; transition: .5s;}
+	.menu-rodape-container a:hover{color: #419240;}
+</style>
+<body>
+	
+	<nav class="navbar navbar-expand-lg navbar-light menu-principal">
+		<div class="container">
+
+			<!-- <a href="" class="navbar-brand">PRIME CONTEÚDO <br>Digital</a> -->
+			<a href="index.html" class="navbar-brand">
+				<img src="imagens/logo_sticky.png" alt="" class="img-fluid" style="width: 300px;">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuSite">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="menuSite">
+
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="quemsomos.html" class="nav-link">Quem Somos</a>
+					</li>
+					<li class="nav-item active">
+						<a href="resultados.html" class="nav-link">Resultados</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="servicos.html" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">Serviços</a>
+						<div class="dropdown-menu">
+							<a href="" class="dropdown-item">Criação de Websites que vendem e SEO</a>
+							<a href="" class="dropdown-item">Midias sociais</a>
+							<a href="" class="dropdown-item">E-commerce</a>
+							<a href="" class="dropdown-item">Marketplace - Venda sem ter loja virtual</a>
+							<a href="" class="dropdown-item">Marketing de Conteúdo</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-link">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-link">Contato</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-link"><i class="fas fa-search"></i></a>
+					</li>
+				</ul>
+				
+			</div>
+
+		</div>		
+	</nav>
+	<!--  -->
+	<div class="resultados py-5 text-white">
+		<div class="container">
+			<h1 class="text-center">Clientes e Resultados</h1>
+		</div>
+	</div>
+	<!--  -->
+	<div class="marcas">
+		<div class="container">
+			<h3 class="h4 text-center my-4">Nossos clientes e alguns resultados de consultoria, clientes de sites, e-commerce e marketplace</h3>
+			<div class="row">
+				<div class="col-md-3 my-3 text-center">
+					<img class="img-fluid" src="imagens/biomais_resultados.png" alt="">
+				</div>
+				<div class="col-md-3 my-3 text-center">
+					<img class="img-fluid" src="imagens/biomais_resultados.png" alt="">
+				</div>
+				<div class="col-md-3 my-3 text-center">
+					<img class="img-fluid" src="imagens/biomais_resultados.png" alt="">
+				</div>
+				<div class="col-md-3 my-3 text-center">
+					<img class="img-fluid" src="imagens/biomais_resultados.png" alt="">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-3 my-3 text-center">
+					<img class="img-fluid" src="imagens/biomais_resultados.png" alt="">
+				</div>
+				<div class="col-md-3 my-3 text-center">
+					<img class="img-fluid" src="imagens/biomais_resultados.png" alt="">
+				</div>
+				<div class="col-md-3 my-3 text-center">
+					<img class="img-fluid" src="imagens/biomais_resultados.png" alt="">
+				</div>
+				<div class="col-md-3 my-3 text-center">
+					<img class="img-fluid" src="imagens/biomais_resultados.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  -->
+	<div class="formulario">
+		<div class="container">
+			<h3 class="text-center pt-3 h1">Fale conosco</h3>
+			<p class="text-center text-muted">Peça um orçamento ou tire suas dúvidas</p>
+
+			<form action="" method="post">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="form-group">
+							<label for="email"></label>
+							<input type="text" class="form-control" id="email" placeholder="Seu E-mail">
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="form-group">
+							<label for="nome"></label>
+							<input type="text" class="form-control" id="nome" placeholder="Seu Nome">
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="form-group">
+							<label for="fone"></label>
+							<input type="text" class="form-control" id="fone" placeholder="Seu Telefone">
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="mensagem"></label>
+					<textarea name="" id="mensagem" cols="30" rows="10" class="form-control" placeholder="Descreva o que você precisa"></textarea>
+				</div>
+
+				<div class="col-12 mb-5">
+					<button type="button" class="btn btn-primary btn-lg btn-block">ENVIAR</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!--  -->
+	<footer class="rodape">
+		<div class="container">
+			<div class="row text-white">
+				<div class="col-lg-3">
+					<h3 class="h5 pt-5 pb-3" style="color: #3961B5;">Contato</h3>
+					<p>
+					(42) 9 9807-4046 Whatsapp <br>
+					Rua Conde de Irajá 287 - Uvaranas <br>
+					Ponta Grossa - Paraná <br>
+					(100km de Curitiba)
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<h3 class="h5 pt-5 pb-3" style="color: #3961B5;">Quem Somos</h3>
+					<p>Prime Conteúdo Digital é uma agência de marketing digital com experiência e muitos clientes satisfeitos.
+					Trabalhos desenvolvidos sempre com objetivo de gerar resultados em curto espaço de tempo.</p>
+				</div>
+			
+				<div class="col-lg-3">
+					<h3 class="h5 pt-5 pb-3" style="color: #3961B5;">Resultados é nossa meta</h3>
+					<p>Otimização de sites <br>
+					Sites que convertem <br>
+					Páginas de vendas <br>
+					Pesquisas <br>
+					Testes + Análises = RESULTADOS</p>
+				</div>
+
+				<div class="col-lg-3">
+					<h3 class="h5 pt-5 pb-3" style="color: #3961B5;">Soluções</h3>
+					<div class="menu-rodape-container">
+						<ul class="nav flex-column ml-0">
+							<li class="nav-item">
+								<a class="nav-link" href="">Criação de Websites que vendem e SEO</a>
+							</li>							
+							<li class="nav-item">
+								<a class="nav-link" href="">Midias Sociais</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="">E-commerce</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="">Marketing de Conteúdo</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="">Marketplace – Venda sem ter loja virtual</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+</body>
+</html>
